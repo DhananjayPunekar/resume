@@ -264,11 +264,21 @@ section {
 .timeline-content h5 {
     margin-bottom: 0;
     margin-top: 25px;
-    
 }
 
 .timeline-content p {
     margin-top: 0;
+}
+
+.timeline-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-content ul li {
+    padding-left: 0;
+    margin-bottom: 10px;
 }
 
 .links a {
@@ -276,6 +286,31 @@ section {
     margin-right: 16px; /* Adjust the margin as needed for spacing */
 }
 
+/* 00. Certifications
+ * =================================================================== */
+
+.section-certification {
+    background: #151515 url(https://images.unsplash.com/photo-1494426383302-7b9d36a1a028?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   text-align: center;
+   color: #fff;
+   display:table;
+}
+
+.img-overlay-certifications {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .8;
+ }
 
 /* 05. Footer
  * =================================================================== */
